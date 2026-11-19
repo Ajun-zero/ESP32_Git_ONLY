@@ -35,11 +35,11 @@ void setup() {
 
 void loop() {
   // rgbLedWrite(引脚, 红, 绿, 蓝)，每路 0~255
-  //rgbLedWrite(48, 32, 0, 0);   // 红
+  rgbLedWrite(48, 32, 0, 0);   // 红
   delay(500);
-  //rgbLedWrite(48, 0, 32, 0);   // 绿
-  //delay(500);
-  //rgbLedWrite(48, 0, 0, 32);   // 蓝
+  rgbLedWrite(48, 0, 32, 0);   // 绿
+  delay(500);
+  rgbLedWrite(48, 0, 0, 32);   // 蓝
   delay(500);
   rgbLedWrite(48, 0, 0, 0);    // 灭
   delay(500);
