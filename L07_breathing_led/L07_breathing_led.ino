@@ -21,7 +21,7 @@ const float PERIOD_MS = 4000.0f;                // 一次完整呼吸 4 秒
 const float GAMMA     = 2.2f;                   // 人眼校正系数
 
 // 板载彩灯的颜色（呼吸时会按亮度比例缩放这个颜色）
-const uint8_t RGB_R = 0;
+const uint8_t RGB_R = 0;  //对颜色进行更改
 const uint8_t RGB_G = 96;
 const uint8_t RGB_B = 160;                      // 偏青蓝，和外面白灯区分开
 
